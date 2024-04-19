@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+
+table{
+    height: 600px;
+    width: 1000px;
+}
+
+table, td{
+    border: 2px solid black; 
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+.stars{
+    position: absolute;
+    width: 500px;
+    height: 324px;
+}
